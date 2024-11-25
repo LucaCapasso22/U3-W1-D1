@@ -1,15 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import ButtonComponent from './Button';
-import ImageComponent from './Image';
+import logo from './logo.svg'
+import './App.css'
+import ButtonComponent from './Button'
+import ImageComponent from './Image'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ButtonComponent textToShow="Questo è un bottone"/>
-        <ImageComponent source="https://placekitten.com/300" alt="Foto gatti" />
+        <ButtonComponent textToShow="Questo è un bottone" />
+        <ImageComponent
+          source="https://placecats.com/300/200"
+          alt="Foto gatti"
+        />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -20,7 +23,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
